@@ -1,0 +1,333 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Calibri, sans-serif;
+}
+
+.header {
+border-bottom: 2px solid #dc0101;
+}
+
+.column{
+    border: 1px solid black;
+    width: 1000px;
+    margin: 0px auto;
+    
+}
+.page .column{
+    height: 100vh;
+}
+
+#logo-i-social {
+    display: flex;
+}
+
+#social-holder{
+    flex-grow: 1;
+    text-align: right;
+
+}
+#main-menu {
+    display: flex;
+}
+
+#main-menu a{
+    flex-grow: 1;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #dc0101;
+    transition: 0.7s; 
+}
+
+#main-menu a:hover,
+#main-menu a.active{
+    color: #ffffff;
+    background: #dc0101;
+}
+.imgbh {
+    height: 70px;
+    width: 200px;
+}
+
+.facebook img{
+    max-width: 50px;
+    max-height: 50px;
+}
+.twiter img{
+    max-width: 50px;
+    max-height: 50px;
+}
+a{
+    text-decoration: none;
+}
+.behance img {
+    max-width: 50px;
+    max-height: 50px;
+}
+.instagram img {
+    max-width: 45px;
+    max-height: 45px;
+}
+.column h1{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 50px;
+    padding: 60px;
+    color: #ffffff;
+    padding-top: calc(50vh - 250px);
+    
+
+}
+.dark-box{
+    text-align: center;
+    background-color: #22222250;
+    border: 1px solid #ffffff;
+    font-size: 25px;
+    color: #ffffff;
+}
+.column{
+    border: #ffffff;
+    
+}
+#pocetna{
+    background: url(./img/Oblaci.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+#usluge{
+    background: url(./img/newyork.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+
+}
+#karijera{
+    background: url(./img/priroda.png);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.align-center {
+    text-align: center;
+}
+.krugovi{
+    display: flex;
+    margin: 50px 0;
+}
+.krug-holder{
+    flex-grow: 1;
+    text-align: center;
+}
+.krug{
+    background-color: #dc0101;
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+   /* width: 200px;
+    height: 200px; */
+    display: inline-block;
+    padding: 25%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.oznaka{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.tehnologije{
+    margin: 50px 0;;
+    display: flex;
+    
+    
+}
+.tehnologija{
+    flex-grow: 1;
+    text-align: center;
+}
+.tehnologija img{
+    width: 48px;
+    height: 48px;
+}
+.tehnologija p{
+    font-weight: bold;
+}
+ 
+ #usluge h2{
+     padding-top: 40px;
+ }
+ .service-row img {
+     height: 150px;
+     width: 300px;
+ }
+ .service-row{
+     display: flex;
+     margin-bottom: 40px;
+     justify-content: space-between;
+ }
+ .service-row > div {
+     text-align: center;
+     position: relative;
+     width: 300px;
+     height: 150px;
+     margin-left: 50px;
+     margin-right: 50px;
+     
+ }
+ .service-row > div > img {
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     bottom: 0px;
+     left: 0px;
+ }
+ .service-row > div > p {
+     position: absolute;
+     left: 0px;
+     right: 0px;
+     bottom: 0px;
+     padding: 10px;
+     background-color: #0a0000d3;
+     font-weight: bold;
+     margin-bottom: 0px;
+ }
+   /*.columnn {
+     height: 800px;
+     
+ }
+ */
+
+ .naslov{
+     text-align: center;
+     
+ }
+.slike img{
+    height: 200px;
+    width: 19vw;
+    
+
+    
+}
+.slike{
+    height: 60vh;
+    width: 90%;
+    margin: 0px 100px 0px 100px;
+    padding-bottom: 100px;
+}
+#stranica-5 {
+    height: 100%;
+}
+
+#karijera h2 {
+    text-align: center;
+    padding-top: 40px;
+}
+.carier-columns {
+    display: flex;
+}
+.job-list{
+    flex-grow: 1;
+    flex-basis: 0;
+    
+}
+.job-descriptions {
+    flex-grow: 2;
+    flex-basis: 0;
+}
+
+.job-list label {
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffffc0;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.job-descriptions input {
+    display: none;
+}
+.job-descriptions .job-description {
+    display: none;
+}
+.job-descriptions input:checked+.job-description{
+    display: block;
+}
+.job-description {
+    border: 1px solid #ffffff;
+    background-color: #ffffffc0;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#kontakt h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.kontakt-region {
+    display: grid;
+    grid-template: "adrese mapa"
+                   "mejlovi mapa";
+    grid-template-columns: 300px 1fr;
+}
+.kontakt-adrese {
+    grid-area: adrese;
+    font-size: 14px;
+}
+.kontakt-mejlovi {
+    grid-area: mejlovi;
+    font-size: 14px;
+}
+.mapa {
+    grid-area: mapa;
+    width: 700px;
+    height: 450px;
+}
+
+.kontakt-mejlovi a {
+    text-decoration: none;
+    color: #dc0101;
+}
+.kontakt-mejlovi a:hover {
+    text-decoration: underline;
+}
+.footer .column {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    border-top: 3px solid #dc0101;
+    font-size: 13px;
+}
+
+.footer-column {
+    flex-grow: 1;
+    
+
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #dc0101;
+}
+.footer-column a:hover{
+    text-decoration: underline;
+}
+.align-right {
+    text-align: right;
+}
