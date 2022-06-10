@@ -1,0 +1,111 @@
+.licna-karta{
+    border-radius: 15px;
+    font-family: Calibri, sans-serif;
+    width: 490px;
+    height: 305px;
+    display:grid;
+    border: 3px solid #000000;
+    grid-template: "sg bp rp rp rp"
+                   "sg bp lk lk lk"
+                   "fo fo ime ime grb"
+                   "fo fo pre pre grb"
+                   "fo fo dr dr grb"
+                   "fo fo pol rbr ss"
+                   "fo fo di di ss"
+                   "fo fo vd vd ss"
+                   "dki dki dki dki pot";
+                   grid-template-columns: 80px 80px 100px 100px 130px;
+                   grid-template-rows: 30px 30px 35px 35px 35px 35px 35px 35px 35px;
+}
+
+.sg {
+    grid-area: sg;
+    width: 70px;
+    height: 60px;
+    align-self: center;
+    justify-self: center;
+}
+.bp{
+    grid-area: bp;
+}
+
+.rp {
+    grid-area: rp;
+    align-self: center;
+} 
+.lk {
+    grid-area: lk;
+    align-self: center;
+} 
+.fo {
+    width: 140px;
+    height: 150px;
+    grid-area: fo;
+    align-self: center;
+    justify-self: center;
+} 
+.ime {
+    grid-area: ime;
+    align-self: center;
+}
+.pre {
+    grid-area: pre;
+    align-self: center;
+}
+.dr {
+    grid-area: dr;
+    align-self: center;
+}
+.pol {
+    grid-area: pol;
+    align-self: center;
+}
+.rbr {
+    grid-area: rbr;
+    align-self: center;
+}
+.di {
+    grid-area: di;
+    align-self: center;
+}
+.ss {
+    grid-area: ss;
+    width: 90px;
+    height: 90px;
+    align-self: end;
+    justify-self: center;
+}
+.vd {
+    grid-area: vd;
+    align-self: center;
+}
+.dki {
+    grid-area: dki;
+    align-self: center;
+}
+.pot {
+    grid-area: pot;
+}
+
+.grb {
+    grid-area: grb;
+    width: 100px;
+    height: 90px;
+    align-self:flex-end;
+    justify-self: center;    
+}
+
+
+
+.velika-slova {
+    font-size: 18px;
+    font-weight: bold;
+    color: #901;
+    line-height: 14px;
+}
+.mala-slova {
+    font-size: 13px;
+    font-style: italic;
+    color: #aaa;
+    line-height: 9px;
+}
